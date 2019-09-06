@@ -5,7 +5,7 @@
  */
 package Main;
 
-import contextoProblema.fabrica;
+import contextoProblema.Fabrica;
 
 /**
  *
@@ -14,7 +14,7 @@ import contextoProblema.fabrica;
 public class Main {
     
     public static void main(String[]args){
-        fabrica poleras = new fabrica();
-        poleras.menu();
+        Fabrica pedido= new Fabrica();
+        pedido.menu();
     }
 }
