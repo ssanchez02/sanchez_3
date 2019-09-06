@@ -5,6 +5,8 @@
  */
 package Main;
 
+import contextoProblema.fabrica;
+
 /**
  *
  * @author Sebastián Sanchez
@@ -12,6 +14,7 @@ package Main;
 public class Main {
     
     public static void main(String[]args){
-        
+        fabrica poleras = new fabrica();
+        poleras.menu();
     }
 }
