@@ -18,31 +18,31 @@ import static org.junit.Assert.*;
  * @author Sebastián Sanchez
  */
 public class FabricaTest {
-
-    Datos datos;
-
-    public FabricaTest() {
-
+    
+  Datos datos;
+    
+  public FabricaTest() {
+        
     }
-
+    
     @Test
     public void testAgregarPedido() {
-        assertEquals(datos.estampado.get(0), Fabrica.pedirEstampado());
+       
     }
-
+    
     @BeforeClass
     public static void setUpClass() {
     }
-
+    
     @AfterClass
     public static void tearDownClass() {
     }
-
+    
     @Before
     public void setUp() {
-        datos = new Datos();
+       datos=new Datos();
     }
-
+    
     @After
     public void tearDown() {
     }
